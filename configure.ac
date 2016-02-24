@@ -132,6 +132,7 @@ dnl Add the languages which your application supports here.
 ALL_LINGUAS="cs da de en fr it nb pl ru fi es sv nl pt_BR ca hu ja"
 AM_GLIB_GNU_GETTEXT
 AC_CHECK_FUNCS(memmem)
+AC_CHECK_FUNCS(strcasecmp)
 
 AX_CHECK_COMPILER_FLAGS("-msse2", [_CAN_COMPILE_SSE2=yes], [_CAN_COMPILE_SSE2=no]) 
 AX_CHECK_COMPILER_FLAGS("-msse4.1", [_CAN_COMPILE_SSE4_1=yes],[_CAN_COMPILE_SSE4_1=no]) 
